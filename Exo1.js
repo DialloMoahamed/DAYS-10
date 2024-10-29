@@ -10,3 +10,7 @@ const number = [0,1,2,3,4,5,6,7,8,9,10]
     setOfNumber.add(numero)
  }
 console.log(setOfNumber);
+
+
+// Reponse numero 3
+console.log(setOfNumber.delete(0));
