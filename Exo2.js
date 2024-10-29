@@ -8,3 +8,12 @@ let B = new Set(b)
 let C = new Set(c)
 
 console.log(C)
+
+
+// Reponse numero 2
+// ----- intersection a et b ----- //
+let Al = new Set(a)
+let Bl = new Set(b)
+let cl = a.filter((num) =>  B.has(num))
+let Cl = new Set(c)
+console.log(Cl);
