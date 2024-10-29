@@ -14,3 +14,8 @@ console.log(setOfNumber);
 
 // Reponse numero 3
 console.log(setOfNumber.delete(0));
+
+
+// Reponse numero 4
+setOfNumber.clear();
+console.log(setOfNumber);
