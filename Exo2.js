@@ -14,6 +14,15 @@ console.log(C)
 // ----- intersection a et b ----- //
 let Al = new Set(a)
 let Bl = new Set(b)
-let cl = a.filter((num) =>  B.has(num))
-let Cl = new Set(c)
+let cl = a.filter((num) =>  Bl.has(num))
+let Cl = new Set(cl)
 console.log(Cl);
+
+
+// Reponse numero 3
+// ----- difference a et b ----- //
+let X = new Set(a)
+let Y = new Set(b)
+let ca = a.filter((num) =>  !Y.has(num))
+let Z = new Set(ca)
+console.log(Z);
