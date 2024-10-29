@@ -31,3 +31,11 @@ element.set('Burkina fasso', 'Ouagadougou')
 for (const [country, city] of element) {
     console.log(country, city);
 }
+
+
+// Reponse numero 6
+const mapOfCountries = new Map(element)
+console.log(mapOfCountries);
+for (const contry of mapOfCountries) {
+    console.log(contry.length);
+}
